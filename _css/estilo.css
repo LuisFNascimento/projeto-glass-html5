@@ -1,4 +1,13 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+
+}
+@font-face {
+    font-family:'Titillium';
+    src: url("../_fonts/TitilliumWeb-Regular.ttf");
+}
 
 /* Formatação Cabeçalho */
 
@@ -20,9 +29,9 @@ p {
 }
 
 header#cabecalho img#icone {
-    position: absolute;
-    left: 800px;
-    top: 70px;
+    position: relative;
+    left: 680px;
+    top: -30px;
 }
 
 header#cabecalho {
@@ -32,8 +41,8 @@ header#cabecalho {
 }
 
 header#cabecalho h1 {
-    font-family: Arial, sans-serif;
-    font-size: 30px;
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 50px;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;  
@@ -41,7 +50,7 @@ header#cabecalho h1 {
 }
 
 header#cabecalho h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Titillium', sans-serif;
     font-size: 15px;
     color: #888888;
     padding: 0px;  
@@ -88,9 +97,9 @@ nav#menu {
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
-    position: absolute;
-    top: -20px;
-    left: 450px;
+    position: relative;
+    top: -230px;
+    left: 250px;
 }
 
 nav#menu li {
@@ -99,6 +108,7 @@ nav#menu li {
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
+    
 }
 
 nav#menu li:hover {
