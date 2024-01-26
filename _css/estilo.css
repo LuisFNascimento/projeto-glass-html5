@@ -16,7 +16,7 @@ body {
     color: (black);
 }
 div#interface {
-    width: 900px;
+    width: 950px;
     background-color: #ffffff;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .4);
@@ -30,8 +30,8 @@ p {
 
 header#cabecalho img#icone {
     position: relative;
-    left: 680px;
-    top: -30px;
+    left: 750px;
+    top: -40px;
 }
 
 header#cabecalho {
@@ -42,7 +42,7 @@ header#cabecalho {
 
 header#cabecalho h1 {
     font-family: 'FonteLogo', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     padding: 0px;  
@@ -99,7 +99,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: relative;
     top: -230px;
-    left: 250px;
+    left: 320px;
 }
 
 nav#menu li {
@@ -132,10 +132,44 @@ nav#menu a:hover {
 
 section#corpo {
     display: block;
-    width: 500px;
+    width: 530px;
     float: left;
     border-right: 1px solid #606060;
     padding-right: 20px;
+}
+
+section#corpo h3.tec {
+    font-size: 12px;
+    color: #888888;
+    font-family: 'Titillium', sans-serif;
+    margin-top: 5px;
+ 
+}
+
+section#corpo h3.autor {
+    font-size: 12px;
+    color: #888888;
+    font-family: 'Titillium', sans-serif;
+    margin-top: -25px;
+ 
+}
+
+section#corpo h1.saiba {
+    font-family: 'FonteLogo', sans-serif;
+    color: #606060;
+}
+
+section#corpo h3.data {
+    color: #606060;
+    font-size: 10px;
+    text-align: right;
+}
+
+
+h2#titulo2 {
+    color: #606060;
+    background-color: #cecece;
+    font-size: 20px;
 }
 
 table#tabelaspec {
@@ -185,6 +219,31 @@ aside#lateral {
     display: block;
     width: 365px;
     float: right;
+    background-color: #cecece;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+aside#lateral h2.on {
+    font-family: 'FonteLogo', sans-serif;
+    color: #606060;
+}
+
+aside#lateral h3.vc {
+    color: #ffffff;
+    background-color: #606060;
+    font-size: 10pt;
+    font-weight: bolder;
+    font-family: 'Titillium', sans-serif;
+}
+
+aside#lateral h2.ng {
+    color: #ffffff;
+    background-color: #606060;
+    font-size: 10pt;
+    font-weight: bolder;
+    font-family: 'Titillium', sans-serif;
 }
 
 footer#rodape {
