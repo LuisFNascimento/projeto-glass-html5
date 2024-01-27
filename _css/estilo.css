@@ -12,6 +12,7 @@
 /* Formatação Cabeçalho */
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #dddddd ;
     color: (black);
 }
@@ -26,6 +27,15 @@ div#interface {
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header#cabecalho img#icone {
@@ -138,38 +148,35 @@ section#corpo {
     padding-right: 20px;
 }
 
-section#corpo h3.tec {
-    font-size: 12px;
-    color: #888888;
-    font-family: 'Titillium', sans-serif;
-    margin-top: 5px;
- 
-}
-
-section#corpo h3.autor {
-    font-size: 12px;
-    color: #888888;
-    font-family: 'Titillium', sans-serif;
-    margin-top: -25px;
- 
-}
-
-section#corpo h1.saiba {
-    font-family: 'FonteLogo', sans-serif;
+article#noticia-principal h2 {
     color: #606060;
-}
-
-section#corpo h3.data {
-    color: #606060;
-    font-size: 10px;
-    text-align: right;
-}
-
-
-h2#titulo2 {
-    color: #606060;
-    background-color: #cecece;
+    background-color: #dddddd;
     font-size: 20px;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+    font-family:'FonteLogo', sans-serif;
+    color: #606060;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 13px;
+    color: #cecece;
+    margin: 0px;
+    background-color: white;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 09px;
+    color: #606060;
+}
+
+header#cabecalho-artigo h3.direita {
+    text-align: right;
 }
 
 table#tabelaspec {
@@ -220,30 +227,27 @@ aside#lateral {
     width: 365px;
     float: right;
     background-color: #cecece;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 5px;
-    padding: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,.5);
 }
 
-aside#lateral h2.on {
+aside#lateral h1 {
     font-family: 'FonteLogo', sans-serif;
     color: #606060;
+    font-size: 22px;
+    margin-top: 0px;
 }
 
-aside#lateral h3.vc {
+aside#lateral h2 {
     color: #ffffff;
     background-color: #606060;
-    font-size: 10pt;
+    font-size: 12pt;
     font-weight: bolder;
-    font-family: 'Titillium', sans-serif;
-}
-
-aside#lateral h2.ng {
-    color: #ffffff;
-    background-color: #606060;
-    font-size: 10pt;
-    font-weight: bolder;
-    font-family: 'Titillium', sans-serif;
+    margin-left: 0px;
+    padding: 2px 0px 2px 10px;
+    
 }
 
 footer#rodape {
