@@ -106,9 +106,9 @@ nav#menu {
 
 nav#menu ul{
     list-style: none;
-    text-transform: uppercase;
-    position: relative;
-    top: -230px;
+    text-transform: capitalize;
+    position: absolute;
+    top: -18px;
     left: 320px;
 }
 
@@ -117,8 +117,7 @@ nav#menu li {
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
-    transition: background-color 1s;
-    
+    transition: background-color 1s; 
 }
 
 nav#menu li:hover {
@@ -137,7 +136,6 @@ nav#menu a {
 nav#menu a:hover {
     color: #ffffff;
     text-decoration: underline;
-
 }
 
 section#corpo {
